@@ -1,14 +1,3 @@
-// const str = 'Довод'
-// let reverse = ''
-// for (let i = str.length - 1; i >= 0; i--) {
-// 	reverse = reverse + str[i]
-// }
-// if (str.toLowerCase() === reverse.toLowerCase()) {
-// 	console.log('палиндром', reverse)
-// } else {
-// 	console.log('не палиндром')
-// }
-
 const str = 'Дерево'
 const cleanStr = str.toLowerCase()
 
