@@ -1,17 +1,14 @@
 // 4 ЗАДАНИЕ
+const boardSize = 3
+const board = []
 
-const boardSize = 3 //размерность игрового поля
-const board = [] //игровое поле
-
-//заполняем игровое поле строками с крестиками и ноликами
 for (let i = 0; i < boardSize; i++) {
-	const row = [] //строка игрового поля
+	const row = []
 
-	//заполняем строку игрового
-	for (let j = 0; j < boardSize; j++) {
-		row.push(Math.random() < 0.3 ? 'X' : 'O') //заполняем строку игрового поля случайным набором крестиков и ноликов
+	for (let l = 0; l < boardSize; l++) {
+		row.push(Math.random() < 0.3 ? 'X' : 'O')
 	}
 
-	board.push(row) //заполняем игровое поле строками
-	console.log(board[i].join(' ')) //выводим каждую из строк игрового поля в консоль
+	board.push(row)
+	console.log(board[i].join(' '))
 }
